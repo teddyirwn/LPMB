@@ -14,7 +14,7 @@
         @vite('resources/css/app.css')
     </head>
     <body >
-        <div class="flex justify-cente items-center h-screen">
+        <div class="flex justify-center items-center bg-black h-screen">
 
             <div class="bg-sky-400 w-52 h-52 "></div>
         </div>
