@@ -1,0 +1,223 @@
+[33mcommit 907513796c192a3cc84a66f72ae25fecfc04de16[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: Hikmalniuwbi <hikmalpaijo2017@gmail.com>
+Date:   Sat Aug 10 21:48:28 2024 +0700
+
+    masih 30% ,cek agi ted
+
+[1mdiff --git a/package-lock.json b/package-lock.json[m
+[1mindex 26081da..acc5557 100644[m
+[1m--- a/package-lock.json[m
+[1m+++ b/package-lock.json[m
+[36m@@ -5,6 +5,7 @@[m
+     "packages": {[m
+         "": {[m
+             "dependencies": {[m
+[32m+[m[32m                "@heroicons/react": "^2.1.5",[m
+                 "@vitejs/plugin-vue": "^5.1.2"[m
+             },[m
+             "devDependencies": {[m
+[36m@@ -420,6 +421,14 @@[m
+                 "node": ">=12"[m
+             }[m
+         },[m
+[32m+[m[32m        "node_modules/@heroicons/react": {[m
+[32m+[m[32m            "version": "2.1.5",[m
+[32m+[m[32m            "resolved": "https://registry.npmjs.org/@heroicons/react/-/react-2.1.5.tgz",[m
+[32m+[m[32m            "integrity": "sha512-FuzFN+BsHa+7OxbvAERtgBTNeZpUjgM/MIizfVkSCL2/edriN0Hx/DWRCR//aPYwO5QX/YlgLGXk+E3PcfZwjA==",[m
+[32m+[m[32m            "peerDependencies": {[m
+[32m+[m[32m                "react": ">= 16"[m
+[32m+[m[32m            }[m
+[32m+[m[32m        },[m
+         "node_modules/@isaacs/cliui": {[m
+             "version": "8.0.2",[m
+             "resolved": "https://registry.npmjs.org/@isaacs/cliui/-/cliui-8.0.2.tgz",[m
+[36m@@ -1525,6 +1534,12 @@[m
+                 "jiti": "bin/jiti.js"[m
+             }[m
+         },[m
+[32m+[m[32m        "node_modules/js-tokens": {[m
+[32m+[m[32m            "version": "4.0.0",[m
+[32m+[m[32m            "resolved": "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz",[m
+[32m+[m[32m            "integrity": "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==",[m
+[32m+[m[32m            "peer": true[m
+[32m+[m[32m        },[m
+         "node_modules/laravel-vite-plugin": {[m
+             "version": "1.0.5",[m
+             "resolved": "https://registry.npmjs.org/laravel-vite-plugin/-/laravel-vite-plugin-1.0.5.tgz",[m
+[36m@@ -1559,6 +1574,18 @@[m
+             "integrity": "sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==",[m
+             "dev": true[m
+         },[m
+[32m+[m[32m        "node_modules/loose-envify": {[m
+[32m+[m[32m            "version": "1.4.0",[m
+[32m+[m[32m            "resolved": "https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz",[m
+[32m+[m[32m            "integrity": "sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==",[m
+[32m+[m[32m            "peer": true,[m
+[32m+[m[32m            "dependencies": {[m
+[32m+[m[32m                "js-tokens": "^3.0.0 || ^4.0.0"[m
+[32m+[m[32m            },[m
+[32m+[m[32m            "bin": {[m
+[32m+[m[32m                "loose-envify": "cli.js"[m
+[32m+[m[32m            }[m
+[32m+[m[32m        },[m
+         "node_modules/lru-cache": {[m
+             "version": "10.4.3",[m
+             "resolved": "https://registry.npmjs.org/lru-cache/-/lru-cache-10.4.3.tgz",[m
+[36m@@ -1963,6 +1990,18 @@[m
+                 }[m
+             ][m
+         },[m
+[32m+[m[32m        "node_modules/react": {[m
+[32m+[m[32m            "version": "18.3.1",[m
+[32m+[m[32m            "resolved": "https://registry.npmjs.org/react/-/react-18.3.1.tgz",[m
+[32m+[m[32m            "integrity": "sha512-wS+hAgJShR0KhEvPJArfuPVN1+Hz1t0Y6n5jLrGQbkb4urgPE/0Rve+1kMB1v/oWgHgm4WIcV+i7F2pTVj+2iQ==",[m
+[32m+[m[32m            "peer": true,[m
+[32m+[m[32m            "dependencies": {[m
+[32m+[m[32m                "loose-envify": "^1.1.0"[m
+[32m+[m[32m            },[m
+[32m+[m[32m            "engines": {[m
+[32m+[m[32m                "node": ">=0.10.0"[m
+[32m+[m[32m            }[m
+[32m+[m[32m        },[m
+         "node_modules/read-cache": {[m
+             "version": "1.0.0",[m
+             "resolved": "https://registry.npmjs.org/read-cache/-/read-cache-1.0.0.tgz",[m
+[1mdiff --git a/package.json b/package.json[m
+[1mindex a8e726e..857d411 100644[m
+[1m--- a/package.json[m
+[1m+++ b/package.json[m
+[36m@@ -14,6 +14,7 @@[m
+         "vite": "^5.4.0"[m
+     },[m
+     "dependencies": {[m
+[32m+[m[32m        "@heroicons/react": "^2.1.5",[m
+         "@vitejs/plugin-vue": "^5.1.2"[m
+     }[m
+ }[m
+[1mdiff --git a/resources/views/admin/admin_page.blade.php b/resources/views/admin/admin_page.blade.php[m
+[1mnew file mode 100644[m
+[1mindex 0000000..ae0d238[m
+[1m--- /dev/null[m
+[1m+++ b/resources/views/admin/admin_page.blade.php[m
+[36m@@ -0,0 +1,110 @@[m
+[32m+[m[32m<!doctype html>[m
+[32m+[m[32m<html>[m
+[32m+[m
+[32m+[m[32m<head>[m
+[32m+[m[32m    <meta charset="utf-8">[m
+[32m+[m[32m    <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+[32m+[m[32m    @vite('resources/css/app.css')[m
+[32m+[m[32m    <title> @yield('title')[m
+[32m+[m[32m        Admin Panel[m
+[32m+[m[32m    </title>[m
+[32m+[m[32m</head>[m
+[32m+[m
+[32m+[m[32m<body class="bg-violet-100">[m
+[32m+[m[32m    <div class="flex h-screen ">[m
+[32m+[m[32m        <aside class="w-64 bg-white text-black flex flex-col">[m
+[32m+[m[32m            <div class="flex items-center justify-center h-16 border-b border-gray-300 mb-10 ">[m
+[32m+[m[32m                <h1 class="text-2xl font-semibold">Admin Panel</h1>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m            <nav>[m
+[32m+[m[32m                <ul>[m
+[32m+[m[32m                    <li><a href=""[m
+[32m+[m[32m                            class=" block px-5  py-3 m-3 rounded-md mb-3 border-gray-300 hover:bg-gray-200 flex items-center space-x-10 p-4 ">[m
+[32m+[m[32m                            {{-- icon start --}}[m
+[32m+[m[32m                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"[m
+[32m+[m[32m                                class="size-6 mr-2">[m
+[32m+[m[32m                                <path[m
+[32m+[m[32m                                    d="M18.375 2.25c-1.035 0-1.875.84-1.875 1.875v15.75c0 1.035.84 1.875 1.875 1.875h.75c1.035 0 1.875-.84 1.875-1.875V4.125c0-1.036-.84-1.875-1.875-1.875h-.75ZM9.75 8.625c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-.75a1.875 1.875 0 0 1-1.875-1.875V8.625ZM3 13.125c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v6.75c0 1.035-.84 1.875-1.875 1.875h-.75A1.875 1.875 0 0 1 3 19.875v-6.75Z" />[m
+[32m+[m[32m                            </svg>[m
+[32m+[m[32m                            {{-- icon end  --}}[m
+[32m+[m[32m                            DASHBOARD</a></li>[m
+[32m+[m[32m                    <li><a href=""[m
+[32m+[m[32m                            class=" block px-5  py-3 m-3 rounded-md mb-3 border-gray-300 hover:bg-gray-200 flex items-center space-x-10 p-4">[m
+[32m+[m[32m                            {{-- icon start --}}[m
+[32m+[m[32m                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"[m
+[32m+[m[32m                                class="size-6 mr-2">[m
+[32m+[m[32m                                <path fill-rule="evenodd"[m
+[32m+[m[32m                                    d="M2.25 13.5a8.25 8.25 0 0 1 8.25-8.25.75.75 0 0 1 .75.75v6.75H18a.75.75 0 0 1 .75.75 8.25 8.25 0 0 1-16.5 0Z"[m
+[32m+[m[32m                                    clip-rule="evenodd" />[m
+[32m+[m[32m                                <path fill-rule="evenodd"[m
+[32m+[m[32m                                    d="M12.75 3a.75.75 0 0 1 .75-.75 8.25 8.25 0 0 1 8.25 8.25.75.75 0 0 1-.75.75h-7.5a.75.75 0 0 1-.75-.75V3Z"[m
+[32m+[m[32m                                    clip-rule="evenodd" />[m
+[32m+[m[32m                            </svg>[m
+[32m+[m[32m                            {{-- icon end  --}}[m
+[32m+[m[32m                            Data Barang</a></li>[m
+[32m+[m[32m                    <li><a href=""[m
+[32m+[m[32m                            class=" block px-5  py-3 m-3 rounded-md mb-3 border-gray-300 hover:bg-gray-200 flex items-center space-x-10 p-4">[m
+[32m+[m[32m                            {{-- icon start --}}[m
+[32m+[m[32m                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"[m
+[32m+[m[32m                                class="size-6 mr-2">[m
+[32m+[m[32m                                <path[m
+[32m+[m[32m                                    d="M12 1.5a.75.75 0 0 1 .75.75V7.5h-1.5V2.25A.75.75 0 0 1 12 1.5ZM11.25 7.5v5.69l-1.72-1.72a.75.75 0 0 0-1.06 1.06l3 3a.75.75 0 0 0 1.06 0l3-3a.75.75 0 1 0-1.06-1.06l-1.72 1.72V7.5h3.75a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-9a3 3 0 0 1-3-3v-9a3 3 0 0 1 3-3h3.75Z" />[m
+[32m+[m[32m                            </svg>[m
+[32m+[m
+[32m+[m[32m                            {{-- icon end  --}}[m
+[32m+[m[32m                            Data peminjaman</a></li>[m
+[32m+[m
+[32m+[m[32m                </ul>[m
+[32m+[m[32m            </nav>[m
+[32m+[m[32m            <div class="mt-auto">[m
+[32m+[m[32m                <a href=""[m
+[32m+[m[32m                    class="block px-5 py-3 m-3 rounded-md border-gray-300 hover:bg-gray-200 flex items-center space-x-4">[m
+[32m+[m[32m                    {{-- icon start --}}[m
+[32m+[m[32m                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 mr-2">[m
+[32m+[m[32m                        <path fill-rule="evenodd"[m
+[32m+[m[32m                            d="M7.5 3.75A1.5 1.5 0 0 0 6 5.25v13.5a1.5 1.5 0 0 0 1.5 1.5h6a1.5 1.5 0 0 0 1.5-1.5V15a.75.75 0 0 1 1.5 0v3.75a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3V5.25a3 3 0 0 1 3-3h6a3 3 0 0 1 3 3V9A.75.75 0 0 1 15 9V5.25a1.5 1.5 0 0 0-1.5-1.5h-6Zm5.03 4.72a.75.75 0 0 1 0 1.06l-1.72 1.72h10.94a.75.75 0 0 1 0 1.5H10.81l1.72 1.72a.75.75 0 1 1-1.06 1.06l-3-3a.75.75 0 0 1 0-1.06l3-3a.75.75 0 0 1 1.06 0Z"[m
+[32m+[m[32m                            clip-rule="evenodd" />[m
+[32m+[m[32m                    </svg>[m
+[32m+[m
+[32m+[m
+[32m+[m[32m                    {{-- icon end  --}}[m
+[32m+[m[32m                    Data Logout[m
+[32m+[m[32m                </a>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m        </aside>[m
+[32m+[m[32m    </div>[m
+[32m+[m
+[32m+[m[32m    {{-- <div class="flex h-screen bg-white-200">[m
+[32m+[m[41m        [m
+[32m+[m[32m        <!-- Sidebar -->[m
+[32m+[m[32m        <aside class="w-64 bg-black-100 text-black">[m
+[32m+[m[32m            <div class="flex items-center justify-center h-16 border-b border-white-700">[m
+[32m+[m[32m                <h1 class="text-2xl font-semibold " >Admin LPMB</h1>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m            <nav class="mt-6">[m
+[32m+[m[32m                <ul>[m
+[32m+[m[32m                    <li>[m
+[32m+[m[32m                        <a href="home"[m
+[32m+[m[32m                            class="block px-4 py-2 rounded-md mb-2 text-white-300 hover:bg-white-700 hover:text-white">Dashboard</a>[m
+[32m+[m[32m                    </li>[m
+[32m+[m[32m                    <li>[m
+[32m+[m[32m                        <a href="#"[m
+[32m+[m[32m                            class="block px-4 py-2 rounded-md mb-2 text-white-300 hover:bg-white-700 hover:text-white">Data Peminjaman</a>[m
+[32m+[m[32m                    </li>[m
+[32m+[m[32m                    <li>[m
+[32m+[m[32m                        <a href="#"Reports[m
+[32m+[m[32m                            class="block px-4 py-2 rounded-md mb-2 text-white-300 hover:bg-white-700 hover:text-white">Barang kembali</a>[m
+[32m+[m[32m                    </li>[m
+[32m+[m[32m                    <li>[m
+[32m+[m[32m                        <a href="#"[m
+[32m+[m[32m                            class="block px-4 py-2 rounded-md mb-2 text-white-300 hover:bg-white-700 hover:text-white">settings</a>[m
+[32m+[m[32m                    </li>[m
+[32m+[m[32m                </ul>[m
+[32m+[m[32m            </nav>[m
+[32m+[m[32m        </aside>[m
+[32m+[m
+[32m+[m[32m        <!-- Main content -->[m
+[32m+[m[41m     [m
+[32m+[m[32m    </div> --}}[m
+[32m+[m
+[32m+[m[32m</body>[m
+[1mdiff --git a/routes/web.php b/routes/web.php[m
+[1mindex 86a06c5..d7a6447 100644[m
+[1m--- a/routes/web.php[m
+[1m+++ b/routes/web.php[m
+[36m@@ -5,3 +5,6 @@[m
+ Route::get('/', function () {[m
+     return view('welcome');[m
+ });[m
+[32m+[m[32mRoute::get('/admin', function () {[m
+[32m+[m[32m    return view('admin/admin_page');[m
+[32m+[m[32m});[m
