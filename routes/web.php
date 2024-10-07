@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\ItemsController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
@@ -17,6 +18,11 @@ Route::get('/', function () {
 
 Route::middleware('auth')->group(function () {
     Route::get('/admin', [AdminController::class, 'index'])->name('admin-page');
+
+    Route::controller(ItemsController::class)->group(function () {
+        Route::get('/dashboard-Produk', 'index')->name('produk');
+        Route::get('/dashboard-add-produk', 'create')->name('addProduk');
+    });
 });
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
